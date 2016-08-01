@@ -23,5 +23,18 @@ Configure config\config.js file with mongoDB URI , port number
 
 	$ node seed.js
 	
+## Starting App with NPM
+
+    $ npm start
+
+## Starting App with PM2 
+
+    $ pm2  start server.js -i 0 
+
+Above command starts  server with maximum number of instance which depends on number of CPU cores
+
+
+
+	
 	
 
